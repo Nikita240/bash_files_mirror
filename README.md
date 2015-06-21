@@ -87,7 +87,8 @@ if [ -f ~/.bash_files/init.sh ]; then
 fi
 ```
 
-We put this in `.profile` and not .bashrc because we only want it to be executed when bash is executed i.e. a user is logging in - aka login shell.
+We put this in `.bash_profile` and not .bashrc because we only want it to be executed when bash is executed i.e. a user is logging in - aka login shell.
+Therefore it may be necessary on Linux to enable an option such as "Run command as a login shell" so that the `.bash_profile` file is considered.
 <br>
 
 #### Dependencies
@@ -120,7 +121,7 @@ The script will autodetect if each of those is installed and disable the feature
 
 ### Directory and file structure
 
-The project lives in `~/.bash_files/` 
+The project lives in `~/.bash_files/`
 
 | Directory | Description |
 | ---- | ----------- |
