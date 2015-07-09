@@ -41,7 +41,7 @@ _print_cpuram()
             local real_cores="$(grep -m 1 'cpu cores' /proc/cpuinfo | cut -d: -f2 | sed -e 's/^ *//')"
             local virt_cores="$(grep -m 1 'siblings' /proc/cpuinfo | cut -d: -f2 | sed -e 's/^ *//')"
 
-            
+
         fi
         if [[ -x $(which free) ]]; then
             ram="$(free -m | awk '/^Mem:/{print $2}') MB RAM"
@@ -124,7 +124,7 @@ _print_diskstats()
 {
     if [[ -x $(which df) ]]; then
         # disk usage, don't show tmpfs, ecryptfs, encfs, bccfs, sfpfs
-        local DISK_INFO=$(df -h -x tmpfs -x devtmpfs -x ecryptfs -x fuse.encfs -x bccfs -x afpfs -T)
+        local DISK_INFO=$(df -h -x tmpfs -x devtmpfs -x ecryptfs -x fuse.encfs -x bcfs -x afpfs -T)
 
         printf ${POWDER_BLUE}
         _print_centered_multiline "$DISK_INFO"
