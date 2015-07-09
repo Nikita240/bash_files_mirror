@@ -94,7 +94,8 @@ Therefore it may be necessary on Linux to enable an option such as "Run command 
 Install [homebrew](http://brew.sh)
 
 Install coreutils
-`brew install coreutils`to use the more up to date linux coreutils
+```brew install coreutils```
+to use the more up to date linux coreutils
 
 #### Dependencies
 
