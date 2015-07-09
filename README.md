@@ -67,7 +67,7 @@ Most sections can be turned on and off in `config/config.sh`
 <br>
 
 
-### Initial installation procedure
+### Installation procedure
 
 Clone the repository into your home directory, it will create the `.bash_files` subdirectory:
 
@@ -89,7 +89,12 @@ fi
 
 We put this in `.bash_profile` and not .bashrc because we only want it to be executed when bash is executed i.e. a user is logging in - aka login shell.
 Therefore it may be necessary on Linux to enable an option such as "Run command as a login shell" so that the `.bash_profile` file is considered.
-<br>
+
+#### OS X
+Install [homebrew](http://brew.sh)
+
+Install coreutils
+`brew install coreutils`to use the more up to date linux coreutils
 
 #### Dependencies
 
