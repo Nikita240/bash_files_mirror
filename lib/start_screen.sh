@@ -47,7 +47,7 @@ _print_cpuram()
             ram="$(free -m | awk '/^Mem:/{print $2}') MB RAM"
         fi
 
-        local cpuram="$cpu ($virt_cores/$real_cores) - $ram"
+        local cpuram="$cpu $virt_cores/$real_cores (vCPU/CPU) - $ram"
         ;;
     osx)
         if [[ -x $(which sysctl) ]]; then
@@ -57,7 +57,7 @@ _print_cpuram()
 
             local ram="$(system_profiler SPHardwareDataType | grep Memory | cut -d: -f2 | tr -d [:blank:]) RAM"
 
-            local cpuram="$cpu ($virt_cores/$real_cores) - $ram"
+            local cpuram="$cpu $virt_cores/$real_cores (vCPU/CPU) - $ram"
         fi
         ;;
     *)
