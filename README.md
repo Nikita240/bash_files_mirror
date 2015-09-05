@@ -5,7 +5,7 @@ This is a "bash files" Project for Linux, which also works on OS X when using t
 It's called `bash_files` even if the main component consists of a "Start Screen" with infos since it also includes further helpful things such as aliases, history, window title configuration and a nice bash prompt. Check out the feature list below for more information.
 
 ##### Inspiration
-Inspiration was taken from bigger such as [oh-my-zsh
+Inspiration was taken from [oh-my-zsh
 ](https://github.com/robbyrussell/oh-my-zsh/tree/master/lib), [bash-it](https://github.com/revans/bash-it) and many other small tweaks, improvements and dotfiles projects. While many features where availble, they weren't in a form that was suitable for my personal needs, which is why I created `bash_files`.
 
 ##### Current status
