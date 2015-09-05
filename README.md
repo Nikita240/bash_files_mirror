@@ -1,10 +1,8 @@
 # Bash files
 
-This is a `bash files` Project for Linux, which also works on OS X when using the [GNU coreutils](https://www.gnu.org/software/coreutils/coreutils.html) (see installation instructions).
+This is a `bash files` Project for Linux, which also works on OS X when using the [GNU coreutils](https://www.gnu.org/software/coreutils/coreutils.html) (see installation instructions). The project grew out of a few personal tweaks and additions that extended over time.
 
-The project grew out of a few personal tweaks and additions that grew over time.
-
-It's called bash_files even if the main component consists of "Start Screen" info since it also includes further helpful things such as aliases, history, window title configuration and a nice bash prompt. Check out the feature list below for more information.
+It's called `bash_files` even if the main component consists of a "Start Screen" with infos since it also includes further helpful things such as aliases, history, window title configuration and a nice bash prompt. Check out the feature list below for more information.
 
 ##### Inspiration
 Inspiration was coming from bigger projects such as [oh-my-zsh
