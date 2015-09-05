@@ -1,6 +1,6 @@
 # Bash files
 
-This is a bash `Start Screen` Project for Linux, which also works on OS X when using the [GNU coreutils](https://www.gnu.org/software/coreutils/coreutils.html) (see installation instructions).
+This is a `bash files` Project for Linux, which also works on OS X when using the [GNU coreutils](https://www.gnu.org/software/coreutils/coreutils.html) (see installation instructions).
 
 The project grew out of a few personal tweaks and additions that grew over time.
 
