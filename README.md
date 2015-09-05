@@ -1,13 +1,19 @@
 # Bash files
 
-This is my bash files Project for Linux. It also works on Mac OS X with a few minor limitations. The project grew out of the tweaks and additions I applied for my personal use.
+This is a bash `Start Screen` Project for Linux, which also works on OS X when using the [GNU coreutils](https://www.gnu.org/software/coreutils/coreutils.html) (see installation instructions).
 
-Some inspiration was taken from projects such as [oh-my-zsh
-](https://github.com/robbyrussell/oh-my-zsh/tree/master/lib), [bash-it](https://github.com/revans/bash-it) and others.
+The project grew out of a few personal tweaks and additions that grew over time.
 
-`Bash files` is a work in progress project, everything is still a bit quick and dirty and constantly moving. I hope you enjoy it nevertheless.
+It's called bash_files since it is not just a mere `Start Screen` but also includes helpful things such as aliases, history, window title configuration and a nice bash prompt. Check out the feature list below for more information.
 
-Feel free to contribute, reuse, clone, etc.
+##### Inspiration
+Inspiration was coming from bigger projects such as [oh-my-zsh
+](https://github.com/robbyrussell/oh-my-zsh/tree/master/lib), [bash-it](https://github.com/revans/bash-it) and many other small tweaks and improvements.
+
+##### Current status
+`Bash files` is a work in progress project, everything is still a bit quick and dirty. Nevertheless, major features should be pretty stable.
+
+Feel welcome to contribute, reuse, clone, ...
 
 -binaryanomaly
 
@@ -15,7 +21,7 @@ Feel free to contribute, reuse, clone, etc.
 ---
 
 #### Screenshot
-The current version (15.03.2015) looks like this:
+The version from 15.03.2015 looks like this:
 
 ![Bash_files start screen](http://i.imgur.com/2D5fg2D.png "Bash_files start screen")
 
@@ -23,19 +29,17 @@ The current version (15.03.2015) looks like this:
 ---
 <br>
 
-### Recent updates
+#### Last updates
 
-09.5.2015
-- Added CPU core info for Linux and OS X
-
-11.04.2015
-- Minor tweaks and enhancements
+... 05.09.2015
+- Many small corrections and additions
 
 <br>
 ---
 <br>
 
-### Feature list
+
+#### Feature list
 
 ##### Generic features
  - Config vars for features
@@ -67,7 +71,7 @@ Most sections can be turned on and off in `config/config.sh`
 <br>
 
 
-### Installation procedure
+### Installation instructions
 
 Clone the repository into your home directory, it will create the `.bash_files` subdirectory:
 
@@ -91,11 +95,9 @@ We put this in `.bash_profile` and not .bashrc because we only want it to be exe
 Therefore it may be necessary on Linux to enable an option such as "Run command as a login shell" so that the `.bash_profile` file is considered.
 
 #### OS X
-Install [homebrew](http://brew.sh)
 
-Install coreutils
-```brew install coreutils```
-to use the more up to date linux coreutils
+1. Install [homebrew](http://brew.sh)
+2. Install coreutils ```brew install coreutils``` to use the more up to date linux coreutils
 
 #### Dependencies
 
