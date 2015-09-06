@@ -72,6 +72,12 @@ Add the following to the end of your `.bash_profile` in your home directory:
 if [ -f ~/.bash_startscreen/init.sh ]; then
     . ~/.bash_startscreen/init.sh
 fi
+
+# invoke .bashrc
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
 ```
 
 We put this in `.bash_profile` and not .bashrc because we only want it to be executed when bash is executed i.e. a user is logging in - aka login shell.
