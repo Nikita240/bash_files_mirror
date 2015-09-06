@@ -1,17 +1,13 @@
-# Bash files
+# Bash startscreen
 
-This is a "bash files" Project for Linux, which also works on OS X when using the [GNU coreutils](https://www.gnu.org/software/coreutils/coreutils.html) (see installation instructions). The project grew out of a few personal tweaks and additions that extended over time.
+The project is in progress of refactoring to become modular parts
 
-It's called `bash_files` even if the main component consists of a "Start Screen" with infos since it also includes further helpful things such as aliases, history, window title configuration and a nice bash prompt. Check out the feature list below or have a look at the source for more information.
+- Startscreen
+- Theme (prompt)
+- Aliases
+- Other plugins
 
-##### Inspiration
-Inspiration was taken from [oh-my-zsh
-](https://github.com/robbyrussell/oh-my-zsh/tree/master/lib), [bash-it](https://github.com/revans/bash-it) and many other small tweaks, improvements and dotfiles projects. While many features where availble, they weren't in a form that was suitable for my personal needs, which is why I created `bash_files`.
-
-##### Current status
-`bash_files` is a work in progress project, everything is a bit quick and dirty. Nevertheless, major features should be pretty stable.
-
-Feel welcome to contribute, reuse, clone, ...
+The goal is to migrate those features to [bash-it](https://github.com/Bash-it/bash-it)
 
 -binaryanomaly
 
@@ -22,15 +18,6 @@ Feel welcome to contribute, reuse, clone, ...
 The version from 15.03.2015 looks like this:
 
 ![Bash_files start screen](http://i.imgur.com/2D5fg2D.png "Bash_files start screen")
-
-<br>
----
-<br>
-
-#### Last updates
-
-... 05.09.2015
-- Many small corrections and additions
 
 <br>
 ---
@@ -74,7 +61,7 @@ Most sections can be turned on and off in `config/config.sh`
 Clone the repository into your home directory, it will create the `.bash_files` subdirectory:
 
 ```bash
-git clone https://github.com/binaryanomaly/bash_files ~/.bash_files
+git clone https://github.com/binaryanomaly/bash_startscreen ~/.bash_startscreen
 ```
 
 
@@ -83,9 +70,9 @@ git clone https://github.com/binaryanomaly/bash_files ~/.bash_files
 Add the following to the end of your `.bash_profile` in your home directory:
 
 ```bash
-# .bash_files initialization
-if [ -f ~/.bash_files/init.sh ]; then
-    . ~/.bash_files/init.sh
+# .bash_startscreen initialization
+if [ -f ~/.bash_startscreen/init.sh ]; then
+    . ~/.bash_startscreen/init.sh
 fi
 ```
 
