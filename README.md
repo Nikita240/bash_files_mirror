@@ -57,7 +57,6 @@ The version from 15.03.2015 looks like this:
 
 ### Installation instructions
 
-Clone the repository into your home directory, it will create the `.bash_files` subdirectory:
 
 ```bash
 git clone https://github.com/binaryanomaly/bash_startscreen ~/.bash_startscreen
