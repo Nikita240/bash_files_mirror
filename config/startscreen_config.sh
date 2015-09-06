@@ -26,11 +26,6 @@ _bf_figlet_on="1"
 _bf_lolcat_on=
 
 
-# Prompt config
-_bf_prompt_reboot_info="1"
-
-
-
 _unset_config_vars()
 {
 	unset _bf_show_hostname
@@ -47,5 +42,4 @@ _unset_config_vars()
 	unset _bf_figlet_on
 	unset _bf_lolcat_on
 
-	#unset bf_prompt_reboot_info
 }
