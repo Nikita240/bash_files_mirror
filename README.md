@@ -27,7 +27,6 @@ The version from 15.03.2015 looks like this:
 #### Feature list
 
 ##### Generic features
- - Config vars for features
  - OS type detection support for Linux and OS X
  - Cross-platform robust checks
  - Aliases
@@ -45,7 +44,6 @@ The version from 15.03.2015 looks like this:
  - Random bash comand info (whatis)
  - Reboot required check and message on welcome screen and/or in prompt
 
-Most sections can be turned on and off in `config/config.sh`
 
 #### Functions
  - **extip** - Display external (public) ip using dig/opendns
@@ -101,38 +99,8 @@ The following optional packages are recommended to be installed:
 
 - `figlet` for big ascii letter hostname
 - `lolcat` to colorize the ascii letter hostname
+- `fortune-mod` for fortune telling
 
 Install them using apt (Linux) or homebrew (Mac)
 
-The script will autodetect if each of those is installed and disable the features if not found.
-
-
-
-<br>
----
-<br>
-
-### Directory and file structure
-
-The project lives in `~/.bash_files/`
-
-| Directory | Description |
-| ---- | ----------- |
-| aliases/  | Directory for alias definitions - `*aliases.sh` gets sourced |
-| config/  | Directory for config files - `*config.sh` gets sourced |
-| lib/ | Directory where base functionality is stored - `base*.sh` gets sourced |
-
-<br>
-
-
-| File | Description |
-| ---- | ----------- |
-| init.sh  | Init file that sources all the other dirs/files |
-
-<br>
----
-<br>
-
-### Conventions
-
- - Use `_bf_` prefix for variable names
+The script will autodetect if each of those is installed and automatically disable the features if not found.

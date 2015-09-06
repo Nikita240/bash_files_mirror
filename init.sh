@@ -37,9 +37,6 @@ _source_files()
 # 1. Load /lib/pre_base*.sh files
 files=~/.bash_startscreen/lib/pre_base*.sh; _source_files
 
-# 2. Load config files
-files=~/.bash_startscreen/config/*config.sh; _source_files
-
 # 3. Load base files
 files=~/.bash_startscreen/lib/base*.sh; _source_files
 
@@ -55,11 +52,8 @@ _bf_get_ext_ip
 # ------------------------------------------------------------------------------
 
 
-# Load alias files
-files=~/.bash_startscreen/aliases/*aliases.sh; _source_files
-
-
 # Load Start screen
+files=~/.bash_startscreen/lib/start_screen_functions.sh; _source_files
 files=~/.bash_startscreen/lib/start_screen.sh; _source_files
 
 
@@ -67,5 +61,4 @@ files=~/.bash_startscreen/lib/start_screen.sh; _source_files
 
 # Cleanup variables
 #
-_unset_config_vars
 unset files

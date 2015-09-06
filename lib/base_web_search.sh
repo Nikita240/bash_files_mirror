@@ -1,8 +1,5 @@
 #!/bin/bash
-
-
-_set_local_scriptname "$BASH_SOURCE"
-
+#
 
 # ------------------------------------------------------------------------------
 # Open web browser with passed on url

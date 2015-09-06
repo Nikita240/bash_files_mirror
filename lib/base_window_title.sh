@@ -1,11 +1,7 @@
 #!/bin/bash
-
+#
 
 # printenv = list all shell variables
-
-
-_set_local_scriptname "$BASH_SOURCE"
-
 
 function set_xterm_title () {
 	local title="$1"
