@@ -1,13 +1,15 @@
 # Bash startscreen
 
-The project is in progress of refactoring to become modular parts
+The project is in progress of refactoring to become a
 
-- Startscreen
-- Theme (prompt)
-- Aliases
-- Other plugins
+- Startscreen (standalone)
 
-The goal is to migrate those features to [bash-it](https://github.com/Bash-it/bash-it)
+only.
+
+Other parts are migrated to [bash-it](https://github.com/Bash-it/bash-it)
+- binaryanomaly prompt theme --> done
+- Apt aliases --> done
+- Other functions, plugins --> open
 
 -binaryanomaly
 
@@ -29,7 +31,6 @@ The version from 15.03.2015 looks like this:
 ##### Generic features
  - OS type detection support for Linux and OS X
  - Cross-platform robust checks
- - Aliases
 
 
 ##### Start screen - Info sections
